@@ -4,7 +4,7 @@ import music from "./assets/icon-music.svg"
 function App() {
 
   return (
-    <div className="relative min-h-screen bg-[#e2eaff]">
+    <div className="relative min-h-screen bg-primary">
       <img src="/bg-mobile.svg" alt="" className="absolute top-0 left-0 w-full h-auto z-0 lg:hidden" />
       <img src="/bg-desktop.svg" alt="" className="absolute top-0 left-0 w-full h-auto z-0 hidden lg:block" />
       
@@ -12,26 +12,26 @@ function App() {
         <img src={hero} alt="" className="rounded-t-xl"/>
 
         <div className="p-12 text-center">
-          <h1 className="font-extrabold text-3xl text-[#1F2E55] mb-5">Order Summary</h1>
-          <p className="text-[#717FA6] mb-5">
+          <h1 className="font-extrabold text-3xl text-highlight mb-5">Order Summary</h1>
+          <p className="text-text mb-5">
             You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!
           </p>
 
-          <div className="flex justify-between items-center bg-[#F7F9FF] p-4 rounded-lg mb-8">
+          <div className="flex justify-between items-center bg-secondary p-4 rounded-lg mb-8">
             <div className="flex gap-5">
               <img src={music} alt="" />
               <div className="flex flex-col gap-1.5">
                 <h2 className="font-black">Annual Plan</h2>
-                <p className="text-[#717FA6]">$59.99/year</p>  
+                <p className="text-text">$59.99/year</p>  
               </div>
             </div>
-            <a href="#" className="text-[#382AE1] underline font-bold text-sm hover:text-[#766CF1]">Change</a>
+            <a href="#" className="text-action underline font-bold text-sm hover:text-hover">Change</a>
           </div>
 
           <div className="flex flex-col gap-8">
-            <button className="shadow-lg/30 cursor-pointer bg-[#382AE1] hover:bg-[#766CF1] rounded-md p-3.5 text-white font-bold transition-all ease-in-out duration-300">Proceed to Payment</button>
+            <button className="shadow-lg/30 cursor-pointer bg-action hover:bg-hover rounded-md p-3.5 text-white font-bold transition-all ease-in-out duration-300">Proceed to Payment</button>
 
-            <a href="#" className="text-sm font-black text-[#717FA6] hover:text-[#1F2E55] transition duration-500">Cancel Order</a>
+            <a href="#" className="text-sm font-black text-text hover:text-highlight transition duration-500">Cancel Order</a>
           </div>
         </div>
       </div>

@@ -5,5 +5,10 @@
   --font-redhat: 'Red Hat Display', sans-serif;
   --font-inter: 'Inter', sans-serif;
 
-  
+  --color-primary: #E2EAFF;
+  --color-secondary: #F7F9FF;
+  --color-highlight: #1F2E55;
+  --color-text: #717FA6;
+  --color-action: #382AE1;
+  --color-hover: #766CF1;
 }
